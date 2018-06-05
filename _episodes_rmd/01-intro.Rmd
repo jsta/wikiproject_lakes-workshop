@@ -1,11 +1,11 @@
 ---
 title: "Introduction"
 questions:
-- "Why add lake information to Wikipedia?"
+- "Can people look up basic information about your lake(s)?"
 objectives:
-- ""
+- "Investigate some lake pages on Wikipedia"
 keypoints:
-- ""
+- "Many pages are missing or incomplete"
 ---
 
 ```{r echo=FALSE}
@@ -14,6 +14,24 @@ source("../bin/chunk-options.R")
 
 Wikipedia is a primary source of lake information for many people. 
 
-* **Can anyone look up information about your lake(s)?**
+Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
 
-* **How complete and correct is the information?**
+```{r eval=FALSE}
+library(wikilake)
+lake_wiki("Elk Lake (British Columbia)")
+```
+
+```{r message=FALSE, echo=FALSE, cache=TRUE}
+library(wikilake)
+library(dplyr)
+library(tibble)
+
+dt        <- lake_wiki("Elk Lake (British Columbia)")
+dt <- janitor::clean_names(dt)
+knitr::kable(dplyr::select(dt, -"basin_countries", 
+                               -primary_inflows:-primary_outflows, 
+                               -surface_area, 
+                               -residence_time))
+```
+
+https://gist.github.com/jsta/e486f337be6d5bcdb3aeb1335959de52

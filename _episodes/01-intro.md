@@ -1,17 +1,29 @@
 ---
 title: "Introduction"
 questions:
-- "Why add lake information to Wikipedia?"
+- "Can people look up basic information about your lake(s)?"
 objectives:
-- ""
+- "Investigate some lake pages on Wikipedia"
 keypoints:
-- ""
+- "Many pages are missing or incomplete"
 ---
 
 
 
 Wikipedia is a primary source of lake information for many people. 
 
-* **Can anyone look up information about your lake(s)?**
+Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
 
-* **How complete and correct is the information?**
+
+~~~
+library(wikilake)
+lake_wiki("Elk Lake (British Columbia)")
+~~~
+{: .language-r}
+
+
+|name                 |location                  |catchment_area       |max_depth |   lat|     lon|
+|:--------------------|:-------------------------|:--------------------|:---------|-----:|-------:|
+|Elk and Beaver Lakes |Saanich, British Columbia |11.5 km2 (4.4 sq mi) |17.9      | 48.52| -123.39|
+
+https://gist.github.com/jsta/e486f337be6d5bcdb3aeb1335959de52
