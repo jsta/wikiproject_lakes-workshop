@@ -1,0 +1,17 @@
+---
+title: "Retrieving lake metadata"
+questions:
+- "How can I retrieve lake information from Wikipedia?"
+objectives:
+- ""
+keypoints:
+- ""
+---
+
+```{r echo=FALSE}
+source("../bin/chunk-options.R")
+```
+
+```{r message=FALSE}
+library(wikilake)
+```

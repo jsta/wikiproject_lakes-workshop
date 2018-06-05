@@ -1,0 +1,17 @@
+---
+title: "Creating and editing pages"
+questions:
+- ""
+objectives:
+- ""
+keypoints:
+- ""
+---
+
+```{r echo=FALSE}
+source("../bin/chunk-options.R")
+```
+
+```{r }
+library(wikilake)
+```
