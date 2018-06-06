@@ -15,3 +15,7 @@ keypoints:
 library(wikilake)
 ~~~
 {: .language-r}
+
+## Pull some data
+
+## Show Michigan scraping

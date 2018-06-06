@@ -12,6 +12,12 @@ keypoints:
 source("../bin/chunk-options.R")
 ```
 
-```{r }
-library(wikilake)
-```
+## Make a minor fix to Elk Lake
+
+### Add a pushpin map
+
+## Add a field
+
+## Add a reference
+
+## Create a page

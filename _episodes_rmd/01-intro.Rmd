@@ -16,7 +16,7 @@ Wikipedia is a primary source of lake information for many people.
 
 Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
 
-```{r eval=FALSE}
+```{r eval=FALSE, echo=FALSE}
 library(wikilake)
 lake_wiki("Elk Lake (British Columbia)")
 ```
@@ -35,3 +35,7 @@ knitr::kable(dplyr::select(dt, -"basin_countries",
 ```
 
 https://gist.github.com/jsta/e486f337be6d5bcdb3aeb1335959de52
+
+## Explore some lake lists
+
+## Explore some lake maps

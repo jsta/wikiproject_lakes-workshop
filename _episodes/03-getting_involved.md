@@ -10,15 +10,12 @@ keypoints:
 
 
 
+## Make a minor fix to Elk Lake
 
-~~~
-library(wikilake)
-~~~
-{: .language-r}
+### Add a pushpin map
 
+## Add a field
 
+## Add a reference
 
-~~~
-Loading required package: maps
-~~~
-{: .output}
+## Create a page

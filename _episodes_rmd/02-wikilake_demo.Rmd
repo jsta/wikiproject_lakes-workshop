@@ -15,3 +15,7 @@ source("../bin/chunk-options.R")
 ```{r message=FALSE}
 library(wikilake)
 ```
+
+## Pull some data
+
+## Show Michigan scraping
