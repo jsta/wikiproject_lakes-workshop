@@ -57,4 +57,6 @@ keypoints:
 
 See [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources) for more information.
 
-## Create a new page
+> ## Create a new page
+> Easiest method is to copy from an existing (simple) page like [Flat River Reservoir](https://en.wikipedia.org/wiki/Flat_River_Reservoir)
+{: .challenge}
