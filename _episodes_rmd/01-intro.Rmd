@@ -27,14 +27,13 @@ library(dplyr)
 library(tibble)
 library(kableExtra)
 library(knitr)
-library(tidyr)
 library(magrittr)
 
 dt             <- lake_wiki("Elk Lake (British Columbia)")
 original_names <- names(dt)
 dt             <- janitor::clean_names(dt)
 
-knitr::kable(tidyr::gather(dt), 
+knitr::kable(t(dt), 
              format = "html", padding = -1L) %>%
   column_spec(1, bold = TRUE, border_right = TRUE) %>%
   kable_styling(font_size = 16)

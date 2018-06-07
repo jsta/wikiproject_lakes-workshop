@@ -17,12 +17,6 @@ keypoints:
 
 
 <table class="table" style="font-size: 16px; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:left;"> key </th>
-   <th style="text-align:left;"> value </th>
-  </tr>
- </thead>
 <tbody>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> name </td>
@@ -42,7 +36,7 @@ keypoints:
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> catchment_area </td>
-   <td style="text-align:left;"> 11.5 </td>
+   <td style="text-align:left;"> 11.5 km^2 </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> basin_countries </td>
@@ -50,15 +44,15 @@ keypoints:
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> surface_area </td>
-   <td style="text-align:left;"> 2.46 </td>
+   <td style="text-align:left;"> 2.46 km^2 </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> max_depth </td>
-   <td style="text-align:left;"> 17.9 </td>
+   <td style="text-align:left;"> 17.9 m </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> residence_time </td>
-   <td style="text-align:left;"> 4.4 </td>
+   <td style="text-align:left;"> 4.4 years </td>
   </tr>
   <tr>
    <td style="text-align:left;font-weight: bold;border-right:1px solid;"> lat </td>
