@@ -24,6 +24,13 @@ serve : looseleaf-md
 site : looseleaf-md
 	${JEKYLL} build
 
+figures: fig/gleon_map.png
+
+fig/gleon_map.png: scripts/gleon_map.R
+	Rscript $<
+	pdfcrop fig/gleon_map.pdf fig/gleon_map.pdf
+	convert fig/gleon_map.pdf $@
+
 ## clean            : clean up junk files.
 clean :
 	@rm -rf ${DST}
@@ -41,7 +48,7 @@ clear-rmd :
 ## ----------------------------------------
 ## Commands specific to looseleaf websites.
 
-.PHONY : looseleaf-md looseleaf-files looseleaf-fixme
+.PHONY : looseleaf-md looseleaf-files looseleaf-fixme figures
 
 # RMarkdown files
 RMD_SRC = $(wildcard _episodes_rmd/??-*.Rmd)
@@ -68,7 +75,7 @@ HTML_DST = \
   ${DST}/license/index.html
 
 ## looseleaf-md        : convert Rmarkdown files to markdown
-looseleaf-md : ${RMD_DST}
+looseleaf-md : ${RMD_DST} figures
 
 _episodes/%.md: _episodes_rmd/%.Rmd
 	@bin/knit_pages.sh $< $@

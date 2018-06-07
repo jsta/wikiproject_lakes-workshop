@@ -1,7 +1,7 @@
 ---
 title: "Creating and editing pages"
 questions:
-- ""
+- "What can I do if a page is missing or incomplete?"
 objectives:
 - ""
 keypoints:
@@ -13,6 +13,8 @@ keypoints:
 ## Make a minor fix to Elk Lake
 
 ### Add a pushpin map
+
+<!-- Many lakes are ambiguously named -->
 
 ## Add a field
 
