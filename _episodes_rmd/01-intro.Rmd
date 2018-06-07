@@ -37,7 +37,7 @@ dt             <- janitor::clean_names(dt)
 knitr::kable(tidyr::gather(dt), 
              format = "html", padding = -1L) %>%
   column_spec(1, bold = TRUE, border_right = TRUE) %>%
-  kable_styling(font_size = 20)
+  kable_styling(font_size = 18)
 ```
 
 ## Explore some lake lists

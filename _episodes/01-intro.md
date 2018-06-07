@@ -16,7 +16,7 @@ keypoints:
 
 
 
-<table class="table" style="font-size: 20px; margin-left: auto; margin-right: auto;">
+<table class="table" style="font-size: 18px; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;"> key </th>
