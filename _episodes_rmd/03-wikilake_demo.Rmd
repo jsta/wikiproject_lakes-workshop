@@ -3,19 +3,60 @@ title: "Retrieving lake metadata"
 questions:
 - "How can I retrieve lake information from Wikipedia?"
 objectives:
-- ""
+- "Retrieve some lake data from Wikipedia."
 keypoints:
-- ""
+- "We can use automated tools to pull lake data from Wikipedia."
 ---
 
 ```{r echo=FALSE}
 source("../bin/chunk-options.R")
+opts_chunk$set(cache = TRUE)
 ```
 
-```{r message=FALSE}
+# wikilake
+
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/wikilake)](https://cran.r-project.org/package=wikilake)
+[![Travis-CI Build Status](https://travis-ci.org/jsta/wikilake.svg?branch=master)](https://travis-ci.org/jsta/wikilake)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/wikilake)](http://cran.r-project.org/web/packages/wikilake/index.html)
+
+The `wikilake` package provides functions to scrape the metadata tables from lake pages on Wikipedia.
+
+## Installation
+
+## Stable release from CRAN
+`install.packages("wikilake")`
+
+## Development version
+`devtools::install_github("jsta/wikilake")`
+
+## Usage
+
+```{r example}
 library(wikilake)
 ```
 
-## Pull some data
+```{r metadata only, warning=FALSE}
+# metadata only
+lake_wiki("Lake Mendota")
 
-## Show Michigan scraping
+# pretty printing metadata
+knitr::kable(tidyr::gather(lake_wiki("Lake Mendota")))
+```
+
+```{r worldmapping}
+# metadata + map
+lake_wiki("Gull Lake (Michigan)", map = TRUE)
+```
+
+```{r mapping}
+lake_wiki("Gull Lake (Michigan)", map = TRUE, "usa")
+```
+
+```{r mapping2}
+lake_wiki("Lake Nipigon", map = TRUE, regions = "Canada")
+```
+
+```{r mapping3}
+lake_wiki("Cass Lake (Michigan)", map = TRUE, "state", region = "Michigan")
+```

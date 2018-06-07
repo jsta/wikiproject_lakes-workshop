@@ -10,8 +10,4 @@ People are increasingly looking towards the internet for information about speci
 
 ## URL 
 
-https://bit.ly/2vpLGd9
-
-## Duration
-
-90 minutes
+[https://bit.ly/2vpLGd9](https://bit.ly/2vpLGd9)

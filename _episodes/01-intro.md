@@ -10,13 +10,13 @@ keypoints:
 
 
 
-## Wikipedia is a primary source of lake information for many people
+### Wikipedia is a primary source of lake information for many people
 
-### Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
+#### Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
 
 
 
-<table class="table" style="font-size: 18px; margin-left: auto; margin-right: auto;">
+<table class="table" style="font-size: 16px; margin-left: auto; margin-right: auto;">
  <thead>
   <tr>
    <th style="text-align:left;"> key </th>

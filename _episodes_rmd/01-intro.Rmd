@@ -12,9 +12,9 @@ keypoints:
 source("../bin/chunk-options.R")
 ```
 
-## Wikipedia is a primary source of lake information for many people
+### Wikipedia is a primary source of lake information for many people
 
-### Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
+#### Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
 
 ```{r setup, eval=FALSE, echo=FALSE}
 library(wikilake)
@@ -37,7 +37,7 @@ dt             <- janitor::clean_names(dt)
 knitr::kable(tidyr::gather(dt), 
              format = "html", padding = -1L) %>%
   column_spec(1, bold = TRUE, border_right = TRUE) %>%
-  kable_styling(font_size = 18)
+  kable_styling(font_size = 16)
 ```
 
 ## Explore some lake lists

@@ -5,7 +5,7 @@ questions:
 objectives:
 - "Learn how to add fixes or add new pages."
 keypoints:
-- ""
+- "Improving lake coverage on Wikipedia can be as simple as adding a map."
 ---
 
 
@@ -25,11 +25,12 @@ keypoints:
 > ```
 {: .challenge}
 
-> ## Add a missing field
-> See the [lake Infobox template](https://en.wikipedia.org/wiki/Template:Infobox_body_of_water).
+> ## Add a missing infobox field
+> * For common fields, it can be easiest to copy a field from a more complete lake page.
+> * For more obscure fields, see the [lake Infobox template](https://en.wikipedia.org/wiki/Template:Infobox_body_of_water).
 {: .challenge}
 
-> ## Add a reference from a:
+> ## Add an inline Infobox or text reference from a:
 > ### Scientific paper
 > 
 > * _freeform_
@@ -53,10 +54,9 @@ keypoints:
 > ```
 > The lake is a medium size <ref name = "somewebsite"/>.
 > ```
+> See [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources) for more information.
 {: .challenge}
 
-See [Wikipedia:Citing sources](https://en.wikipedia.org/wiki/Wikipedia:Citing_sources) for more information.
-
 > ## Create a new page
-> Easiest method is to copy from an existing (simple) page like [Flat River Reservoir](https://en.wikipedia.org/wiki/Flat_River_Reservoir)
+> The easiest way to create a new page is to copy from an existing (simple) page like [Flat River Reservoir](https://en.wikipedia.org/wiki/Flat_River_Reservoir) and change the appropriate fields.
 {: .challenge}
