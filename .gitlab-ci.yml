@@ -1,0 +1,13 @@
+image: ruby:2.3
+
+before_script:
+  - gem install bundler jekyll
+
+job:
+  script:
+  - jekyll build
+  artifacts:
+    paths:
+    - _site
+  only:
+  - master
