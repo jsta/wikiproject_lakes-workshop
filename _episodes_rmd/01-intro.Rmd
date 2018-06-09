@@ -12,7 +12,7 @@ keypoints:
 source("../bin/chunk-options.R")
 ```
 
-### Wikipedia is a primary source of lake information for many people
+### Wikipedia is a primary source of lake information for many people. [Wikiproject Lakes](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Lakes) is an informal collaboration is dedicated to improving the quality of this information.
 
 #### Lets look at information about a local lake [Elk Lake (British Columbia)](https://en.wikipedia.org/wiki/Elk_Lake_(British_Columbia)):
 

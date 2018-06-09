@@ -58,5 +58,9 @@ keypoints:
 {: .challenge}
 
 > ## Create a new page
-> The easiest way to create a new page is to copy from an existing (simple) page like [Flat River Reservoir](https://en.wikipedia.org/wiki/Flat_River_Reservoir) and change the appropriate fields.
+Creating a new page often requires a workflow like: 
+* Make a broken (red) link 
+* Open the _source_ of a an existing (simple) page like [Flat River Reservoir](https://en.wikipedia.org/wiki/Flat_River_Reservoir)
+* Copy the source from the existing page to the source of the new page (accessed via the broken link)
+* Change the appropriate fields
 {: .challenge}
